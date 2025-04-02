@@ -116,9 +116,11 @@
     <h2>Be the First to Join</h2>
     <div class="cta">
       <form name="early-access" method="POST" data-netlify="true">
-        <input type="email" name="email" placeholder="Enter your email" required />
-        <button type="submit">Join the Waitlist</button>
-      </form>
+  <input type="hidden" name="form-name" value="early-access" />
+  <input type="email" name="email" placeholder="Enter your email" required />
+  <button type="submit">Join the Waitlist</button>
+</form>
+
     </div>
     <p style="margin-top: 1rem;">Follow us: @TierMeApp — Twitter • Instagram • TikTok</p>
   </section>
