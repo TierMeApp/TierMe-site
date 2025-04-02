@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TierMe | Rank Your Life</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="/logo.png" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Outfit', sans-serif;
+      background: linear-gradient(135deg, #0e0e10 0%, #1a1c2b 100%);
+      color: white;
+      line-height: 1.6;
+    }
+    header, section, footer {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+    h1, h2 {
+      font-weight: 700;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .tagline {
+      font-size: 1.25rem;
+      color: #aaa;
+      margin-bottom: 2rem;
+    }
+    .cta {
+      margin-top: 2rem;
+    }
+    input[type="email"] {
+      padding: 0.75rem;
+      border: none;
+      border-radius: 0.5rem;
+      margin-right: 0.5rem;
+      width: 60%;
+    }
+    button {
+      padding: 0.75rem 1.5rem;
+      background-color: #7c3aed;
+      border: none;
+      border-radius: 0.5rem;
+      color: white;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .step {
+      margin-bottom: 1.5rem;
+    }
+    footer {
+      font-size: 0.875rem;
+      color: #777;
+    }
+    .logo {
+      width: 80px;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/logo.png" alt="TierMe Logo" class="logo" />
+    <h1>Your Life, Ranked by Rarity</h1>
+    <p class="tagline">Compare. Compete. Improve.</p>
+    <p>See where you stand across life categories — looks, fitness, income, skills, and more. Outrank the average. Build your Tier.</p>
+    <div class="cta">
+      <form name="early-access" method="POST" data-netlify="true">
+        <input type="email" name="email" placeholder="Enter your email" required />
+        <button type="submit">Get Early Access</button>
+      </form>
+    </div>
+  </header>
+
+  <section>
+    <h2>What is TierMe?</h2>
+    <p><strong>TierMe</strong> is a rarity-based self-assessment platform that ranks your real-life stats. Enter key metrics and get scored by percentile across major categories. Share your <strong>Tier Card</strong>, see how you stack up, and start optimizing your life like a game.</p>
+  </section>
+
+  <section>
+    <h2>How It Works</h2>
+    <div class="step">
+      <strong>1. Input Your Stats</strong>
+      <p>Select categories like Looks, Wealth, Fitness, Career, Social, and Skills.</p>
+    </div>
+    <div class="step">
+      <strong>2. See Your Tier</strong>
+      <p>Get scored by rarity: Common → Rare → Epic → Legendary → Mythic. Instantly know where you stand.</p>
+    </div>
+    <div class="step">
+      <strong>3. Compete + Improve</strong>
+      <p>Share your Tier Card, track your rank, and get tips to level up in any category.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Level Up Your Life</h2>
+    <p>TierMe doesn’t stop at ranking — it helps you grow.</p>
+    <ul style="text-align: left; max-width: 600px; margin: 1rem auto;">
+      <li><strong>✔️ Personalized Tips:</strong> Get suggestions to improve your weakest stats.</li>
+      <li><strong>✔️ Tier Goals:</strong> Set benchmarks and see what it takes to rise to the next Tier.</li>
+      <li><strong>✔️ Challenges:</strong> Compete in weekly stat battles and improvement challenges.</li>
+      <li><strong>✔️ Compare & Compete:</strong> View rankings globally or within your circle.</li>
+    </ul>
+    <p>Outrank your past self. One tier at a time.</p>
+  </section>
+
+  <section>
+    <h2>Be the First to Join</h2>
+    <div class="cta">
+      <form name="early-access" method="POST" data-netlify="true">
+        <input type="email" name="email" placeholder="Enter your email" required />
+        <button type="submit">Join the Waitlist</button>
+      </form>
+    </div>
+    <p style="margin-top: 1rem;">Follow us: @TierMeApp — Twitter • Instagram • TikTok</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 TierMe. All rights reserved. | Privacy Policy | Terms</p>
+  </footer>
+</body>
+</html>
